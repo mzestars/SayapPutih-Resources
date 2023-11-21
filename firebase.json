@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "redirects": [
+      {
+        "source": "!/privacy_policy",
+        "destination": "https://play.google.com/store/apps/dev?id=6948449465249782727",
+        "type": 302
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/privacy_policy",
+        "destination": "/privacy_policy.html"
+      }
+    ]
+  }
+}
